@@ -2,13 +2,19 @@
 
 The `ballerinax/xero.finance` connector provides practical examples illustrating usage in various scenarios.
 
-[//]: # (TODO: Add examples)
-1. 
-2. 
+1. [Period-end financial review](./period_end_financial_review/period_end_financial_review.md) - Summarise the balance sheet, profit and loss and trial balance for a reporting period.
+2. [Contact revenue and expense analysis](./contact_revenue_expense_analysis/contact_revenue_expense_analysis.md) - Compare revenue and expense by contact and check the cash validation position.
 
 ## Prerequisites
 
-[//]: # (TODO: Add prerequisites)
+1. Build and push the connector to your local Ballerina repository:
+
+   ```bash
+   cd ballerina
+   bal pack && bal push --repository=local
+   ```
+
+2. For each example, create a `Config.toml` in the example directory with the OAuth 2.0 credentials (`clientId`, `clientSecret`, `refreshToken`, `refreshUrl`) and the `tenantId` of your Xero organisation.
 
 ## Running an example
 
